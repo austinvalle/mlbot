@@ -1,0 +1,9 @@
+command_prefix = "!"
+
+[[team]]
+team_code = "TB"
+channel_name = "rays"
+
+[[team]]
+team_code = "LAD"
+channel_name = "dodgers"

@@ -2,14 +2,11 @@ package main
 
 import (
 	"encoding/json"
-	"flag"
 	"fmt"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"net/url"
 	"path"
-	"time"
 )
 
 type mlbAPIResponse struct {
@@ -47,13 +44,11 @@ type mlbAPITeamRecord struct {
 	Losses int
 }
 
-func main() {
-	todaysDate := time.Now().Format("01/02/2006")
-	datePtr := flag.String("date", todaysDate, "the date to get MLB games for (defaults to today)")
-	flag.Parse()
+// todaysDate := time.Now().Format("01/02/2006")
+// datePtr := flag.String("date", todaysDate, "the date to get MLB games for (defaults to today)")
+// flag.Parse()
 
-	printCurrentLiveGames(*datePtr)
-}
+// printCurrentLiveGames(*datePtr)
 
 func printCurrentLiveGames(date string) {
 	apiURL := gamesAPIURL(date)
