@@ -2,8 +2,15 @@ command_prefix = "!"
 
 [[team]]
 team_code = "TB"
-channel_name = "rays"
+channel_name = "rays-live"
+update_type = "out"
 
 [[team]]
 team_code = "LAD"
-channel_name = "dodgers"
+channel_name = "dodgers-live"
+update_type = "inning"
+
+[[team]]
+team_code = "LAD"
+channel_name = "dodgers-recap"
+update_type = "recap"
