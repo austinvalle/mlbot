@@ -4,12 +4,12 @@ log_level = "INFO"
 [[team]]
 team_code = "TB"
 channel_name = "rays-live"
-update_type = "out"
+update_type = "at-bat"
 
 [[team]]
 team_code = "LAD"
 channel_name = "dodgers-live"
-update_type = "inning"
+update_type = "scoring"
 
 [[team]]
 team_code = "LAD"
