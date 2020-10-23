@@ -1,4 +1,5 @@
 command_prefix = "!"
+log_level = "INFO"
 
 [[team]]
 team_code = "TB"
