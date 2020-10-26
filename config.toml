@@ -1,5 +1,7 @@
 command_prefix = "!"
 log_level = "INFO"
+game_tracker_interval_minutes = 1
+live_tracker_interval_seconds = 10
 
 [[team]]
 team_code = "TB"
