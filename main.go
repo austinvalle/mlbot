@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/moosebot/mlbot/config"
-	"github.com/moosebot/mlbot/internal"
+	"github.com/austinvalle/mlbot/config"
+	"github.com/austinvalle/mlbot/internal"
 )
 
 func main() {

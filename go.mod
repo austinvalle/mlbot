@@ -1,4 +1,4 @@
-module github.com/moosebot/mlbot
+module github.com/austinvalle/mlbot
 
 go 1.15
 

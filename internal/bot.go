@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/andersfylling/disgord"
-	"github.com/moosebot/mlbot/config"
+	"github.com/austinvalle/mlbot/config"
 	"github.com/sirupsen/logrus"
 )
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/moosebot/mlbot/config"
+	"github.com/austinvalle/mlbot/config"
 	"github.com/sirupsen/logrus"
 )
 
